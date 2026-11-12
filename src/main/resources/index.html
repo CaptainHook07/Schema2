@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Computer Science</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header & Navigation -->
+<header>
+    <div class="container navbar">
+        <a href="#" class="logo"><i class="fa-solid fa-graduation-cap"></i> CS Department</a>
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container hero-content">
+        <h1>Shaping the Future of Computing</h1>
+        <p>Welcome to the Department of Computer Science. We foster innovation, rigorous research, and excellence in education.</p>
+        <a href="#programs" class="btn">Explore Programs</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about section-padding">
+    <div class="container">
+        <h2 class="section-title">About Our Department</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Our department is dedicated to advancing the frontiers of computing while providing students with a comprehensive foundation in theory and practice. With world-class laboratories, experienced faculty, and industry partnerships, we prepare our graduates to lead in a technology-driven world.</p>
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-check"></i> Cutting-edge research labs in AI & Cybersecurity</li>
+                    <li><i class="fa-solid fa-check"></i> Strong global industry collaborations</li>
+                    <li><i class="fa-solid fa-check"></i> Comprehensive undergraduate and graduate degrees</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>Quick Facts</h3>
+                <ul>
+                    <li><strong>Established:</strong> 1985</li>
+                    <li><strong>Students:</strong> 1,200+</li>
+                    <li><strong>Faculty Members:</strong> 45</li>
+                    <li><strong>Research Grants:</strong> $12M+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Programs Section -->
+<section id="programs" class="programs section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title">Academic Programs</h2>
+        <div class="program-grid">
+            <div class="program-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Bachelor of Science</h3>
+                <p>A rigorous 4-year undergraduate curriculum covering software engineering, data structures, algorithms, and system architecture.</p>
+            </div>
+            <div class="program-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Master of Science</h3>
+                <p>Advanced study focusing on Artificial Intelligence, Machine Learning, Cloud Computing, and advanced software systems.</p>
+            </div>
+            <div class="program-card">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>Ph.D. Program</h3>
+                <p>Deep research-focused doctoral tracks working alongside leading experts in specialized computing domains.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Faculty Section -->
+<section id="faculty" class="faculty section-padding">
+    <div class="container">
+        <h2 class="section-title">Leadership & Faculty</h2>
+        <div class="faculty-grid">
+            <div class="faculty-card">
+                <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                <h3>Dr. Jane Doe</h3>
+                <p class="title">Department Chair</p>
+                <p class="bio">Specializes in Distributed Systems and Cloud Architecture.</p>
+            </div>
+            <div class="faculty-card">
+                <div class="avatar"><i class="fa-solid fa-user-graduate"></i></div>
+                <h3>Dr. John Smith</h3>
+                <p class="title">Professor of AI</p>
+                <p class="bio">Researching Neural Networks and Natural Language Processing.</p>
+            </div>
+            <div class="faculty-card">
+                <div class="avatar"><i class="fa-solid fa-user-shield"></i></div>
+                <h3>Dr. Emily Vance</h3>
+                <p class="title">Associate Professor</p>
+                <p class="bio">Expert in Information Security and Cryptography.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact section-padding bg-light">
+    <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <p><i class="fa-solid fa-location-dot"></i> Room 402, Science Hall, University Campus</p>
+                <p><i class="fa-solid fa-phone"></i> +1 (555) 234-5678</p>
+                <p><i class="fa-solid fa-envelope"></i> cs-dept@university.edu</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container footer-content">
+        <p>&copy; 2026 Department of Computer Science. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
